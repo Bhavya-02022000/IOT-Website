@@ -1121,8 +1121,14 @@ pre code {
   }
 
   .col-md-4 {
-    flex: 0 0 33.3333333333%;
-    max-width: 33.3333333333%;
+    flex: 0 0 30%;
+    max-width: 30; 
+    padding: 25px;
+    border-radius: 10px;
+    margin: 15px;
+    /* flex: 0 0 30%;
+    max-width: 30%;
+    padding: 25px; */
   }
 
   .col-md-5 {
@@ -4025,7 +4031,6 @@ input[type=button].btn-block {
 .navbar-brand:hover, .navbar-brand:focus {
   text-decoration: none;
 }
-
 .navbar-nav {
   display: flex;
   flex-direction: column;
@@ -10119,7 +10124,9 @@ img::-moz-selection {
   text-transform: uppercase;
 }
 #mainNav .navbar-brand img {
-  height: 1.5rem;
+  height: 3.0rem;
+  /* width: 15.0rem; */
+  
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -10147,7 +10154,7 @@ img::-moz-selection {
     transition: font-size 0.3s ease-in-out;
   }
   #mainNav .navbar-brand img {
-    height: 2rem;
+    height: 3rem;
     transition: height 0.3s ease-in-out;
   }
   #mainNav.navbar-shrink {
